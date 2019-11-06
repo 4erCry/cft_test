@@ -1,0 +1,31 @@
+.div-table 
+{
+  display: table;         
+  width: auto;         
+  background-color: #eee;         
+  border: 2px solid #666666;         
+  border-spacing: 5px; 
+}
+.div-table-row 
+{
+  display: table-row;
+  width: auto;
+  clear: both;
+}
+.div-table-col 
+{
+  float: left;
+  display: table-column;         
+  width: 200px;         
+  background-color: #ccc;  
+}
+
+@keyframes text
+{
+    50%{transform: scale(1.5, 1.5)}
+    100%{transform: scale(0.75, 0.75)}    
+}
+div:hover 
+{ 
+background: white 
+}.
